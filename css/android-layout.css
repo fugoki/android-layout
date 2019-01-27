@@ -268,10 +268,10 @@ html, body {
 }
 
 .Button {
-  background: transparent;
+  background: #d3d3d3;
   border: none;
   border-radius: 2px;
-  color: #d3d3d3;
+  color: #000;
   position: relative;
   height: 36px;
   margin: 0;
@@ -286,6 +286,9 @@ html, body {
   text-align: center;
   line-height: 36px;
   vertical-align: middle;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2),
+              0 3px 1px -2px rgba(0, 0, 0, 0.2),
+              0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*.output-area :not(.layout_height-wrap_content) {
