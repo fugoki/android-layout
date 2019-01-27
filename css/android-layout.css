@@ -263,11 +263,30 @@ html, body {
 .LinearLayout,
 .RelativeLayout,
 .TextView,
-.Button,
 .View {
 	background-image: none!important;
 }
 
+.Button {
+  background: transparent;
+  border: none;
+  border-radius: 2px;
+  color: #d3d3d3;
+  position: relative;
+  height: 36px;
+  margin: 0;
+  min-width: 64px;
+  padding: 0 16px;
+  display: inline-block;
+  overflow: hidden;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 36px;
+  vertical-align: middle;
+}
 
 /*.output-area :not(.layout_height-wrap_content) {
 	flex-grow: 1;
