@@ -202,7 +202,7 @@ var app = app || {};
 
 		{
 			name: 'android:src',
-			pattern: /^\@drawable\/(?:ocean|fish|cake|android|mountains|rocks|cakesmall)+$/
+			pattern: /^\@drawable\/(?:ocean|fish|cake|android|mountains|rocks|cakesmall|barmejguy)+$/
 		},
 		{
 			name: 'android:scaleType',

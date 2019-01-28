@@ -49,7 +49,6 @@ var app = app || {};
 
 		// we're assuming they won't visit the same page twice within one second
 		pageInstanceUID = Math.floor(Date.now()/1000);
-		app.fb = new Firebase('https://android-visualizer.firebaseio.com/users/' + app.uid + '/' + app.hash + '/' + pageInstanceUID);
 
 	};
 
@@ -221,8 +220,6 @@ var app = app || {};
     // console.log(app.diffDecoder.getState());
 		// console.log(app.diffDecoder.getState().state);
 		// console.log('pushing', diff);
-		// console.log(app.fb);
-    app.fb.child('diffs').push(diff);
 	}
 
 
@@ -404,7 +401,7 @@ var app = app || {};
 
 	// reset code button
 	$('.btn-reset-code').click(function(e) {
-		if (!confirm('Press OK to reset your code to the default for this example.\n\nNote: This will overwrite your current code, but pressing Cmd/Ctrl Z will undo this change.')) {
+		if (!confirm('اضغط على زر أوكي لإعادة الكود الأساسي\n\nملاحظه سيتم إزالة الكود الخاص بك و يمكنك إعادة الكود بالضغط على زر Cmd/Ctrl Z')) {
 			return false;
 		}
 		app.resetCodeToHashDefault();
