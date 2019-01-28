@@ -404,7 +404,7 @@ var app = app || {};
 
 	// reset code button
 	$('.btn-reset-code').click(function(e) {
-		if (!confirm('Press OK to reset your code to the default for this example.\n\nNote: This will overwrite your current code, but pressing Cmd/Ctrl Z will undo this change.')) {
+		if (!confirm('اضغط على زر أوكي لإعادة الكود الأساسي\n\nملاحظه سيتم إزالة الكود الخاص بك و يمكنك إعادة الكود بالضغط على زر Cmd/Ctrl Z')) {
 			return false;
 		}
 		app.resetCodeToHashDefault();
