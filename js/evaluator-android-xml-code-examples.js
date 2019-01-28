@@ -2,7 +2,7 @@ var app = app || {};
 
 (function() {
 	app.androidCodeDefaults = {
-    "default": "<TextView\n    android:text=\"Hi there!\"\n    android:layout_width=\"wrap_content\"\n    android:layout_height=\"wrap_content\"\n    android:textSize=\"36sp\"\n    android:fontFamily=\"sans-serif-light\"\n    android:textColor=\"@android:color/black\"\n    android:background=\"#ccddff\"\n    android:padding=\"20dp\"/>",
+    "default": "<TextView\n    android:text=\"مرحبا بك\"\n    android:layout_width=\"wrap_content\"\n    android:layout_height=\"wrap_content\"\n    android:textSize=\"36sp\"\n    android:fontFamily=\"sans-serif-light\"\n    android:textColor=\"@android:color/black\"\n    android:background=\"#ccddff\"\n    android:padding=\"20dp\"/>",
     "android/text-view": "<TextView\n    android:text=\"Happy Birthday!\"\n    android:background=\"@android:color/darker_gray\"\n    android:layout_width=\"150dp\"\n    android:layout_height=\"75dp\" />",
     "android/xml-syntax-errors": "<Text View\n    android:text=\"Hapy Birthday\"\n    android:layout_width=\"150dp\"\n    android:layout_height=\"150\"\n    android:background=\"@android:color/darker_groy\"\n>",
     "android/wrap-content": "<TextView\n    android:text=\"Happy Birthday!\"\n    android:background=\"@android:color/darker_gray\"\n    android:layout_width=\"150dp\"\n    android:layout_height=\"150dp\" />",
